@@ -1,7 +1,11 @@
+.body {
+	padding: 0px;
+}
+
 .container {
-  margin: 20px auto;
+  margin: 0px auto;
   width: 600px;
-  padding: 0px 20px 20px 20px;
+  padding: 1px;
   border: none;
   background: black;
   width: 100%;
@@ -12,26 +16,60 @@ th {
 }
 
 ul {
-	display: inline;
 	list-style-type: none;
 	color: gray;
-	float: top;
 }
 
+ul li {
+	display:inline;
+	padding-right: 20px;
+	padding-top: 0px;
+}
+
+ul li:active {
+	color: white;
+
+}
 .ul.nav {
-	display: inline;
-	text-decoration: none	
+	text-decoration: none;
+	color: gray;
+	padding: 0px;
+	margin: 0px 0px;
+
 
 }
 
 ul a {
 	color: inherit;
 	text-decoration: none;
-	display: inline;
 	font-size: 14px;
 }
 
+.photo {
+	float: right;
+	padding: 10px;
+}
+
+.user_link {
+	float: right;
+	padding-right: 20px;
+	padding-top: 20px;
+	color: gray;
+	text-decoration: none;
+}
+
+.container2 {
+	float: right;
+	border-style: none;
+	margin: 10px;
+	padding: 10px;
+	padding-right: 10px;
+	vertical-align: center;
+	background-color: gray;
+
+}
 div.form {
+	margin-top: 250px;
 	text-align: center;
 }
 
@@ -40,6 +78,9 @@ form {
 }
 
 .footer {
+	margin-top: 200px;
 	text-align: center;
 	color: tomato;	
+	text-align: bottom;
+
 }
